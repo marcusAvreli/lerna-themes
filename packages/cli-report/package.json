@@ -6,20 +6,23 @@
   "author": "marcusAvreli <markgav19@gmail.com>",
   "license": "ISC",
   "main": "index.js",
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "ddd",
     "directory": "packages/cli-reporter"
   },
   "scripts": {
-	  "precommit": "lint-staged"
-	  
+    "precommit": "lint-staged"
   },
-   "publishConfig": {
+  "publishConfig": {
     "access": "public",
     "provenance": true
   },
   "dependencies": {
     "chalk": "4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.0.0",
+    "lint-staged": "11.0.0"
   }
 }

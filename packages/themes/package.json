@@ -13,6 +13,7 @@
     "lib"
   ],
   "scripts": {
+	  
 	  "precommit": "lint-staged",
 	    "lint": "eslint -f codeframe \"**/*.js\" --fix",
     "test": "echo \"Error: run tests from root\" && exit 1"

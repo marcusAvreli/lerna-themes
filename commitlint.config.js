@@ -7,6 +7,7 @@ module.exports = {
       [
         // workspace packages
         'themes',
+		'cli-report'
         '*'
        
       ],
