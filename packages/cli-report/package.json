@@ -1,0 +1,25 @@
+{
+  "name": "@lerna-themes/cli-reporter",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "marcusAvreli <markgav19@gmail.com>",
+  "license": "ISC",
+  "main": "index.js",
+   "repository": {
+    "type": "git",
+    "url": "ddd",
+    "directory": "packages/cli-reporter"
+  },
+  "scripts": {
+	  "precommit": "lint-staged"
+	  
+  },
+   "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "chalk": "4.0.0"
+  }
+}

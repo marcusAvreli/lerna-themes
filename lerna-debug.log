@@ -1,0 +1,22 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'lint'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath c:\nodeDev\lerna-themes
+3 error JSONError: Unexpected token "}" (0x7D) in JSON at position 659 while parsing near "...lint-staged\",\n\t  \n  },\n   \"publishConfig..." in packages\cli-report\package.json
+3 error
+3 error [0m [90m 15 |[39m 	  [32m"precommit"[39m[33m:[39m [32m"lint-staged"[39m[33m,[39m
+3 error  [90m 16 |[39m
+3 error [31m[1m>[22m[39m[90m 17 |[39m   }[33m,[39m
+3 error  [90m    |[39m   [31m[1m^[22m[39m
+3 error  [90m 18 |[39m    [32m"publishConfig"[39m[33m:[39m {
+3 error  [90m 19 |[39m     [32m"access"[39m[33m:[39m [32m"public"[39m[33m,[39m
+3 error  [90m 20 |[39m     [32m"provenance"[39m[33m:[39m [36mtrue[39m[0m
+3 error
+3 error     at parseJson (c:\nodeDev\lerna-themes\node_modules\parse-json\index.js:29:21)
+3 error     at parse (c:\nodeDev\lerna-themes\node_modules\load-json-file\index.js:15:9)
+3 error     at module.exports (c:\nodeDev\lerna-themes\node_modules\load-json-file\index.js:18:47)
